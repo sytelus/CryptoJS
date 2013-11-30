@@ -72,7 +72,7 @@ You can convert string to word arrays using various encoders. And word array in 
     console.log(utf8);
 </script>	
 ```
-9
+
 
 ### Copyrights
 Please see copyrights.txt which is copy of corresponding file from Google Code project.
