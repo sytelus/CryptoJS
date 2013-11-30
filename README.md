@@ -93,11 +93,11 @@ require.config({
 			exports: "CryptoJS"
 		},
 		'cryptojs.md5': {
-			deps: ['cryptojs.core']
+			deps: ['cryptojs.core'],
 			exports: "CryptoJS"	//You can also use "CryptoJS.MD5"
 		},
 		'cryptojs.base64': {
-			deps: ['cryptojs.core']
+			deps: ['cryptojs.core'],
 			exports: "CryptoJS"	//You can also use "CryptoJS.enc.Base64"
 		}
     }
@@ -105,4 +105,4 @@ require.config({
 ```
 
 ### Copyrights
-Please see copyrights.txt which is copy of corresponding file from Google Code project.
+Please see copyrights.txt file in the root folder which is copy of corresponding file from Google Code project. This github repository does not assert any copyrights beyond what original CryptoJS does.
