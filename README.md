@@ -84,9 +84,9 @@ Here's the example: Let's say we want to use MD5 with Base64 encoder. The shim w
 ```
 require.config({
     paths: {
-        'cryptojs.core': "path/to/cryptojs/components/core.js",
-        'cryptojs.md5': "path/to/cryptojs/components/md5.js",
-        'cryptojs.base64': "path/to/cryptojs/components/enc-base64.js"
+        'cryptojs.core': "path/to/cryptojslib/components/core.js",
+        'cryptojs.md5': "path/to/cryptojslib/components/md5.js",
+        'cryptojs.base64': "path/to/cryptojslib/components/enc-base64.js"
     },
     shim: {
 		'cryptojs.core': {
