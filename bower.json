@@ -8,7 +8,7 @@
     "url": "git://github.com/sytelus/cryptojs.git"
   },
   "ignore": [
-    ".bat"
+    "*.bat"
   ],  
   "dependencies": {
   },
