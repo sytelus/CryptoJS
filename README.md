@@ -10,7 +10,7 @@ You have two folders:
 
 The files in rollups folder is combination of one or more files in components folder. This makes files in rollups folder standalone includable in your projects without worrieng about its dependencies. You can view relation between rollup and components here: https://code.google.com/p/crypto-js/source/browse/tags/3.1.2/builder/build.yml
 
-# Note for encoders and decoders
+##### Note for encoders and decoders
 The UTF8 encoder/decoder is included in core.js and hence is available in rollup files for algorithms. However if you need UTF16 and Base64 encoder then you need to include corresponding file from components folder (see below for MD5 hash with Base64 example).
 
 
@@ -32,7 +32,7 @@ Please see the Quick Start guide at https://code.google.com/p/crypto-js/#Quick-s
 
 Below is very quick example:
 
-#MD5
+##### MD5
 MD5 is a widely used hash function. It's been used in a variety of security applications and is also commonly used to check the integrity of files. Though, MD5 is not collision resistant, and it isn't suitable for applications like SSL certificates or digital signatures that rely on this property.
 
 ```
@@ -47,7 +47,7 @@ MD5 is a widely used hash function. It's been used in a variety of security appl
 </script>
 ```
 
-#SHA-3
+##### SHA-3
 SHA-3 is the winner of a five-year competition to select a new cryptographic hash algorithm where 64 competing designs were evaluated.
 
 ```
@@ -62,7 +62,7 @@ SHA-3 is the winner of a five-year competition to select a new cryptographic has
 </script>
 ```
 
-#Encoding and decoding
+##### Encoding and decoding
 You can convert string to word arrays using various encoders. And word array in to string using decoders.
 
 ```
