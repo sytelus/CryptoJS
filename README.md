@@ -32,11 +32,11 @@ Below are very quick examples of core usage:
 MD5 is a widely used hash function. It's been used in a variety of security applications and is also commonly used to check the integrity of files. Though, MD5 is not collision resistant, and it isn't suitable for applications like SSL certificates or digital signatures that rely on this property.
 
 ```
-<script src="http://<mysite>/<libs location>/cryptojs/rollups/md5.js"></script>
-<script src="http://<mysite>/<libs location>/cryptojs/components/enc-base64-min.js"></script>
+<script src="http://<mysite>/<libs location>/cryptojslib/rollups/md5.js"></script>
+<script src="http://<mysite>/<libs location>/cryptojslib/components/enc-base64-min.js"></script>
 <script>
-	//The hash algorithms accept either strings or instances of CryptoJS.lib.WordArray. 
-	//A WordArray object represents an array of 32-bit words. 
+	//The hash algorithms accept either strings or instances of CryptoJS.lib.WordArray.
+	//A WordArray object represents an array of 32-bit words.
 	//When you pass a string, it's automatically converted to a WordArray encoded as UTF-8.
     var hash = CryptoJS.MD5("Message");
 	alert(hash.toString(CryptoJS.enc.Base64));
@@ -47,12 +47,12 @@ MD5 is a widely used hash function. It's been used in a variety of security appl
 SHA-3 is the winner of a five-year competition to select a new cryptographic hash algorithm where 64 competing designs were evaluated.
 
 ```
-<script src="http://<mysite>/<libs location>/cryptojs/rollups/sha3.js"></script>
+<script src="http://<mysite>/<libs location>/cryptojslib/rollups/sha3.js"></script>
 <script>
     var hash = CryptoJS.SHA3("Message");
 	
-	//The hash you get back isn't a string yet. It's a WordArray object. 
-	//When you use a WordArray object in a string context, 
+	//The hash you get back isn't a string yet. It's a WordArray object.
+	//When you use a WordArray object in a string context,
 	//it's automatically converted to a hex string.	
 	alert(hash.toString()); //Same as hash.toString(CryptoJS.enc.Hex);
 </script>
@@ -72,7 +72,7 @@ You can convert string to word arrays using various encoders. And word array in 
 The UTF8 encoder/decoder is included in core.js and hence is available in rollup files for algorithms. However if you need UTF16 and Base64 encoder then you need to include corresponding file from components folder (see below for MD5 hash with Base64 example).
 
 
-### Using with AMD/RequireJS 
+### Using with AMD/RequireJS
 CryptoJS does not have built-in support for AMD/RequireJS yet. However adding shims is almost trivial. For use with RequireJS, using files in components is probably more desirable instead of files in rollups folder because you probably already have setup RequireJS optimizer or other build process. To build the shim for RequireJS follow this steps:
 
 - Identify algorithms and encoder/decoders you need.
