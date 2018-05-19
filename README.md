@@ -22,7 +22,7 @@ bower install cryptojslib
 
 ### APIs
 
-You can play with below code live at http://jsbin.com/IziHAdIf/1/edit?html,console.
+You can play with below code live at http://jsbin.com/bubucixixi/1/edit?html,console.
 
 Please see the Quick Start guide at https://code.google.com/p/crypto-js/#Quick-start_Guide
 
