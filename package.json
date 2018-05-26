@@ -1,0 +1,22 @@
+{
+  "name": "cryptojslib",
+  "version": "1.0.0",
+  "description": "this is encrypt lib",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Daniel900318/CryptoJS.git"
+  },
+  "keywords": [
+    "encrypt"
+  ],
+  "author": "sytelus",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Daniel900318/CryptoJS/issues"
+  },
+  "homepage": "https://github.com/Daniel900318/CryptoJS#readme"
+}
